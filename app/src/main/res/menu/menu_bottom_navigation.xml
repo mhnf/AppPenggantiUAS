@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_contact"
+        android:checked="false"
+        android:icon="@drawable/ic_contact"
+        android:title="BIODATA"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_chat"
+        android:checked="false"
+        android:icon="@drawable/ic_friends"
+        android:title="FRIENDS"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_call"
+        android:checked="true"
+        android:icon="@drawable/cp"
+        android:title="CONTACT PERSON"
+        app:showAsAction="ifRoom" />
+</menu>
